@@ -1,9 +1,18 @@
+body{
+    background:#414345;
+}
+
+
+
 #gameCanvas {
     position: relative;
-    top: 15px;
-    border: 1px solid black;
+    top:45px;
+    border: 4px solid white;
     margin: 0 auto;
     
     display: block;
+    -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.40);
+    -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.40);
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.40);
     
 }
